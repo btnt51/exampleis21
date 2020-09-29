@@ -22,5 +22,7 @@ int main()
         }
     }
     mainMenu(rangeOfArray, Array);
+    delete[] Array;
+    Array = NULL;
     return 0;
 }
