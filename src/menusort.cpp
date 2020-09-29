@@ -10,4 +10,6 @@ void menusort(int rangeOfArray,int *Array)
     cout << "Sorted Array" << endl;
     for(int i = 0; i < rangeOfArray;i++)
         cout << "element[" << i << "] -->" << sortedArray[i] << endl;
+    delete[] sortedArray;
+    sortedArray = NULL;
 }
